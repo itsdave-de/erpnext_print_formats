@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include itsdave_formulare *.css
+recursive-include itsdave_formulare *.csv
+recursive-include itsdave_formulare *.html
+recursive-include itsdave_formulare *.ico
+recursive-include itsdave_formulare *.js
+recursive-include itsdave_formulare *.json
+recursive-include itsdave_formulare *.md
+recursive-include itsdave_formulare *.png
+recursive-include itsdave_formulare *.py
+recursive-include itsdave_formulare *.svg
+recursive-include itsdave_formulare *.txt
+recursive-exclude itsdave_formulare *.pyc
