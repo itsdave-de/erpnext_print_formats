@@ -179,3 +179,11 @@ user_data_fields = [
 #	"itsdave_formulare.auth.validate"
 # ]
 
+fixtures = [
+    {
+        "doctype": "Print Format",
+        "filters": {
+            "name": ["in", ["itsdave-Rechnung", "itsdave-Angebot", "itsdave-Lieferschein", "itsdave-Auftragsbestätigung"]]
+        }
+    }
+]
